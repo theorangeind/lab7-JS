@@ -27,6 +27,9 @@ $modalButtonsShow.forEach(function(item)
         modalCurrent.addEventListener('transitionend', function()
         {
             transiting = false;
+        }, 
+        {
+            once: true
         })
     });
 })
